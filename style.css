@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+table {
+    margin: 75px 0;
+}
+th {
+    background-color: rgb(54, 70, 121);
+}
+td {
+    background-color: rgb(27, 27, 27);
+}
+th, td {
+    padding: 20px 50px;
+}
+button {
+    padding: 10px 30px;
+    background-color: rgb(54, 70, 121);
+    color: white;
+}
+button:hover {
+    background-color: rgb(36, 48, 88);
+}
